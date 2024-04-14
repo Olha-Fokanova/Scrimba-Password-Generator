@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Generate a <br /><span class="accent-words">random password</span></h1>
+        <h3>Never use an insecure password again.</h3>
+        <button id="generate-btn" onclick="createPassword()">Generate passwords</button>
+        <hr>
+        <div class="result-wrapper">
+            <div class="result-el" id="password-first-el"></div>
+            <button id="copy-btn" class="copy-button" onclick="copyFirstPassword()">
+                <i class="fa fa-solid fa-copy"></i>
+            </button>
+            <div class="result-el" id="password-second-el"></div>
+            <button id="copy-btn" class="copy-button" onclick="copySecondPassword()">
+                <i class="fa fa-solid fa-copy"></i>
+            </button>
+        </div>
+    </div>
+    <script src="public/index.js"></script>
+
+</body>
+<html>
